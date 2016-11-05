@@ -10,6 +10,7 @@ Features :
 1.0
 
 ## License
+MIT https://opensource.org/licenses/MIT
 
 ## Basic usage
 
