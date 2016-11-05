@@ -62,7 +62,8 @@ $.wpMediaUploader({
 ````
 
 ## Preview
-![alt text](https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview.jpg "Logo Title Text 1")
+![alt text](https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview.jpg "Preview 1")
+![alt text](https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview2.jpg "Preview 2")
 
 ## Developer
 Developed by Bilal Hassan
