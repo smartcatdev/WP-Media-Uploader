@@ -14,7 +14,7 @@ Features :
 ## Basic usage
 
 
-1. HTML
+### 1. HTML
 ```` HTML
 <div class="form-group smartcat-uploader">
     <label for="logo">Company logo</label>
@@ -22,7 +22,7 @@ Features :
 </div>
 ````
 
-2. PHP
+### 2. PHP
 ```` PHP
 // This will load the required dependencies for the WordPress media uploader
 // Be sure to set the proper location of wp_media_uploader.js 
@@ -33,7 +33,7 @@ function load_admin_libs() {
 add_action( 'admin_enqueue_scripts', 'load_admin_libs' );
 ````
 
-3. JavaScript
+### 3. JavaScript
 ```` javascript
 $.wpMediaUploader();
 ````
