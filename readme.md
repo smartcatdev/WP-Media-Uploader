@@ -1,5 +1,5 @@
 
-Create a media upload button button to use in your WordPress plugins or themes. 
+Create a media upload button button to use in your WordPress admin forms, plugins or themes. 
 
 Features :
 - Easy to setup and use
