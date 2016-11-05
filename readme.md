@@ -12,6 +12,8 @@ Features :
 ## License
 
 ## Basic usage
+
+
 1. HTML
 ```` HTML
 <div class="form-group smartcat-uploader">
@@ -23,7 +25,9 @@ Features :
 2. PHP
 ```` PHP
 // This will load the required dependencies for the WordPress media uploader
+// Be sure to set the proper location of wp_media_uploader.js 
 function load_admin_libs() {
+    wp_enqueue_script( 'wp-media-uploader', DIR_URL . 'wp_media_uploader.js', array( 'jquery' ), 1.0 );
     wp_enqueue_media();
 }
 add_action( 'admin_enqueue_scripts', 'load_admin_libs' );
@@ -57,4 +61,4 @@ $.wpMediaUploader({
 ````
 
 ## Preview
-[preview]: preview.jpg "Standard appearance"
+[preview]: https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview.jpg "Standard appearance"
