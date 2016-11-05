@@ -1,5 +1,7 @@
 /**
  * 
+ * wpMediaUploader v1.0 2016-11-05
+ * Copyright (c) 2016 Smartcat
  * 
  */
 

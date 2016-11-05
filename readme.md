@@ -66,6 +66,3 @@ $.wpMediaUploader({
 
 ## Developer
 Developed by Bilal Hassan
-
-## Copyright
-Copyright Smartcat
