@@ -62,4 +62,3 @@ $.wpMediaUploader({
 
 ## Preview
 ![alt text](https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview.jpg "Logo Title Text 1")
-https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview.jpg
