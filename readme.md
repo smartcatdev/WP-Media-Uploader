@@ -10,7 +10,7 @@ Features :
 1.0
 
 ## License
-MIT https://opensource.org/licenses/MIT
+GPL V3 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## Basic usage
 
@@ -63,3 +63,9 @@ $.wpMediaUploader({
 
 ## Preview
 ![alt text](https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview.jpg "Logo Title Text 1")
+
+## Developer
+Developed by Bilal Hassan
+
+## Copyright
+Copyright Smartcat
