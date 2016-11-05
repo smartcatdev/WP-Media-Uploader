@@ -28,8 +28,8 @@ GPL V3 https://www.gnu.org/licenses/gpl-3.0.en.html
 // This will load the required dependencies for the WordPress media uploader
 // Be sure to set the proper location of wp_media_uploader.js 
 function load_admin_libs() {
-    wp_enqueue_script( 'wp-media-uploader', DIR_URL . 'wp_media_uploader.js', array( 'jquery' ), 1.0 );
     wp_enqueue_media();
+    wp_enqueue_script( 'wp-media-uploader', DIR_URL . 'wp_media_uploader.js', array( 'jquery' ), 1.0 );
 }
 add_action( 'admin_enqueue_scripts', 'load_admin_libs' );
 ````
