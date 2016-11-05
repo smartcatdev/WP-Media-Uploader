@@ -61,4 +61,4 @@ $.wpMediaUploader({
 ````
 
 ## Preview
-[preview]: https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview.jpg "Standard appearance"
+[preview]: (https://github.com/smartcatdev/WP-Media-Uploader/blob/master/preview.jpg "Standard appearance")
