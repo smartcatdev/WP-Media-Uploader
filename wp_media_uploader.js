@@ -5,7 +5,7 @@
 
 ( function( $) {
 
-    $.fn.wpMediaUploader = function( options ) {
+    $.wpMediaUploader = function( options ) {
         
         var settings = $.extend({
             
@@ -57,7 +57,6 @@
         
         
     }
-    
 })(jQuery);
 
 
