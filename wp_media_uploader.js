@@ -4,9 +4,7 @@
  * Copyright (c) 2016 Smartcat
  * 
  */
-
 ( function( $) {
-
     $.wpMediaUploader = function( options ) {
         
         var settings = $.extend({
@@ -25,7 +23,6 @@
                 fontSize : '16px',                
                 padding : '10px 15px',                
             },
-
             
         }, options );
         
@@ -38,7 +35,7 @@
         $('body').on('click', settings.buttonClass, function(e) {
             
             e.preventDefault();
-
+            var selector = $(this).parent( settings.target );
             var custom_uploader = wp.media({
                 title: settings.uploaderTitle,
                 button: {
@@ -48,8 +45,8 @@
             })
             .on('select', function() {
                 var attachment = custom_uploader.state().get('selection').first().toJSON();
-                $( settings.target + ' img').attr( 'src', attachment.url).show();
-                $( settings.target + ' input').val(attachment.url);
+                selector.find( 'img' ).attr( 'src', attachment.url).show();
+                selector.find( 'input' ).val(attachment.url);
                 if( settings.modal ) {
                     $('.modal').css( 'overflowY', 'auto');
                 }
@@ -60,5 +57,3 @@
         
     }
 })(jQuery);
-
-
